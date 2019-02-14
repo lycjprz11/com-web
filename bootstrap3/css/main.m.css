@@ -1,0 +1,177 @@
+/*
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*/
+@charset "UTF-8";
+a:hover{
+    text-decoration: none;
+}
+
+.font10{
+    font-size: 0.9rem;
+}
+.font11{
+    font-size: 1.6rem;
+}
+.font12{
+    font-size: 1.1rem;
+}
+.font13{
+    font-size: 1.3rem;
+}
+.index-button{
+    text-align: center;
+    color: #0f0f0f;
+    display: block;
+    padding: 10px 2px;
+    margin-bottom: 100px;
+    margin-top: 44px;
+    font-size: 1.6rem;
+    font-family: "Lucida Grande";
+    font-weight: 600;
+}
+/******header*******/
+#head-top{
+    background-color: #77777717;
+    font-family: "Microsoft YaHei UI Light";
+}
+#head-top>div>p{
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+#head-top>div>ul{
+    list-style: none;
+    float: right;
+    margin-bottom: 0px;
+}
+#head-top>div>ul>li{
+    float: left;
+}
+#head-top>div>ul>li>a:hover{
+    color: rgba(193,29,58,1);
+    cursor:pointer;
+}
+#head-top>div>ul>li>a {
+    padding: 1px 10px;
+    height: 25px;
+    line-height: 25px;
+    border-left: black 1px solid;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.top-active{
+    text-decoration: none !important;
+    color:#FFB400 !important;
+    background-color: #1531AE !important;
+}
+#head-middle{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#top-server-tel{
+    float: right;
+}
+.nav-name{
+    float:left;
+    text-decoration:none;
+    padding:5px 10px;
+    font-family: "Microsoft YaHei UI";
+    color:#FFD673;
+    font-weight: 600;
+    margin: auto 0;
+    width: 12.5%;
+    text-align: center;
+    display: inline-block;
+}
+#top-nav{
+    height：45px;
+    line-height:45px;
+    background-color:#6F81D6;
+}
+#top-nav>div>a:hover{
+    color:#FFC740;
+    background:#4962D6;
+    cursor:pointer;
+}
+/***********header 结束*****************/
+/***********products 开始***************/
+#index-products-p{
+    margin-top: 70px;
+}
+.index-name{
+    text-align: center;
+
+}
+.index-enname{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0000007a;
+    font-family: initial;
+}
+.index-introduce{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Microsoft YaHei UI Light";
+}
+#index-products-name>ul{
+    text-align: center;
+}
+#index-products-box{
+    padding-top: 25px;
+}
+#index-products-box>ul>li>img{
+    box-shadow: ActiveBorder;
+    margin: auto;
+}
+#index-products-box>ul>li>h4{
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    color: #3c3c3c;
+}
+/************产品展示结束***************/
+#index-about{
+    background-color:#3c3c3c14;
+    margin-top: 45px;
+}
+#index-about h1{
+    margin-top: 100px;
+}
+/*****关于我们结束********************/
+/*****成功案例开始********************/
+#index-cause>h1{
+   margin-top: 100px;
+}
+.cause-box{
+padding-left: 5px;
+}
+.cause-box>img{
+    display: block;
+    padding-top: 10px;
+}
+/****成功案例结束************************/
+/******新闻开始**************************/
+#index-news{
+    background-color: #3c3c3c14;
+    margin-top: 45px;
+}
+.index-sec-name{
+    text-align: center;
+}
+.list-group-item-heading{
+    font-size: 1.5rem;
+    font-family: "Adobe 宋体 Std L";
+}
+.list-group-item-text{
+    font-size: 1.3rem;
+    font-family: "Adobe Ming Std L";
+}
+.list-date-box{
+
+}
+.list-date-box span{
+
+}
+.list-content-box{
+
+}
